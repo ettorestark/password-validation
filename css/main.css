@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	background: #F1F1F1;
+	padding: 1.4em;
+}
+
+input {
+	width: 100%;
+	padding: .8em;
+	border: 1px solid #CCC;
+	border-radius: .4em;
+	margin-top: .5em;
+	margin-bottom: 1em;
+}
+
+input[type=submit] {
+	background: #0099FF;
+	color: #FFF;
+}
+
+#message {
+	display: none;
+	background: #F1F1F1;
+	color: #000;
+	position: relative;
+	padding: 1.4em;
+	margin-top: .6em;
+}
+
+#message p{
+	padding: .7em 2em;
+}
+
+.valid {
+    color: #00ff00;
+}
+
+.valid:before {
+    position: relative;
+    left: -2em;
+    content: "✔";
+}
+
+.invalid {
+	color: #FF0000;
+}
+
+.invalid:before {
+	position: relative;
+	left: -2em;
+	content: "✖";
+}
